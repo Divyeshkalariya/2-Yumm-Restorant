@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Divyeshkalariya/2yumm-restaurant",
   "name": "yummy",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +11,7 @@
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.3.0",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^5.0.0",
     "jquery": "^3.7.0",
     "mdb-react-ui-kit": "^6.1.0",
     "mdbootstrap": "^4.20.0",
@@ -21,6 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "Set PORT=3002&& react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
