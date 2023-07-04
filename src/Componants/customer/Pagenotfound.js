@@ -14,7 +14,7 @@ export default function PagenotfoundApp() {
           <img src={error} alt='page not found' className='img-fluid w-50 mx-auto' />
         </MDBCol>
         <MDBCol className='d-flex justify-content-center'>
-          <MDBBtn className='mb-4' href='/'>Go Back <i className="fa fa-arrow-right"></i> </MDBBtn>
+          <Link to="/home"><MDBBtn className='mb-4'>Go Back <i className="fa fa-arrow-right"></i> </MDBBtn></Link>
         </MDBCol>
       </MDBContainer>
       {/* footer start */}
