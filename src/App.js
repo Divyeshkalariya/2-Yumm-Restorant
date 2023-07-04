@@ -29,14 +29,14 @@ export default function App() {
     <>
       {/* <BrowserRouter>
         <Routes>
-          <Route path='/' element={<LayoutApp />}>
-            <Route index element={<HomeApp />} />
+          // <Route path='/' element={<LayoutApp />}>
+            <Route path='/' element={<HomeApp />} />
             <Route path='/about' element={<AboutApp />} />
             <Route path='/bookingtable' element={<BookingTableApp />} />
             <Route path='/menu' element={<MenuApp />} />
             <Route path='/contactus' element={<ContactusApp />} />
             <Route path="*" element={<PagenotfoundApp />} />
-        </Route>
+        // </Route>
       </Routes>
     </BrowserRouter > */}
     <BrowserRouter>
