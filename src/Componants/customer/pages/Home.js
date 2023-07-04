@@ -17,19 +17,10 @@ import deliverfood from "../../../assest/images/home-page/delivery-service/ffd.j
 import burger from "../../../assest/images/home-page/slider/burger.png"
 import pizza from "../../../assest/images/home-page/slider/pizza.png"
 import FooterApp from "../../customer/Footer";
+import LayoutApp from "../Layout";
 
 
 export default function Home() {
-    // const toTop = document.querySelector(".scroll-top");
-
-    // window.addEventListener("scroll", ()=> {
-    //     if(window.pageYOffset > 300) {
-    //         toTop.classList.add("active");
-    //     }
-    //     else{
-    //         toTop.classList.remove("active");
-    //     }
-    // });
   
         const [visible, setVisible] = useState(false)
         
@@ -52,6 +43,7 @@ export default function Home() {
         window.addEventListener('scroll', toggleVisible);
     return (
         <Fragment>
+        <LayoutApp/>
             {/* header section start */}
             <MDBContainer id="header" className="mb-5">
                 <MDBRow>

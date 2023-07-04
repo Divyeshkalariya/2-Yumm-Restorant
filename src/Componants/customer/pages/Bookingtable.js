@@ -3,6 +3,7 @@ import PostertopApp from '../Postertop';
 import { MDBContainer, MDBRow , MDBCol, MDBBtn } from 'mdb-react-ui-kit';
 import FooterApp from '../Footer';
 import { Button } from 'bootstrap';
+import LayoutApp from '../Layout';
 
 function BookingTableApp() {
     const [visible, setVisible] = useState(false)
@@ -27,6 +28,7 @@ function BookingTableApp() {
 
     return (
         <Fragment>
+        <LayoutApp/>
             <PostertopApp name="Book Table"/>
             <MDBContainer id='booktable' className='mb-4'>
             <MDBCol className='position-relative'>

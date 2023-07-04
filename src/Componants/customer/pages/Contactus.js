@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import FooterApp from '../Footer';
 import PostertopApp from '../Postertop';
 import ContactformApp from '../Contactform';
+import LayoutApp from '../Layout';
 
 export default function ContactusApp() {
     const [visible, setVisible] = useState(false)
@@ -27,6 +28,7 @@ export default function ContactusApp() {
     window.addEventListener('scroll', toggleVisible);
     return (
         <Fragment>
+        <LayoutApp/>
             <PostertopApp name="Contact Us"/>
             <MDBContainer className="p-5">
                 <MDBRow >

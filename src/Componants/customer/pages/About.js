@@ -19,6 +19,7 @@ import gallery7 from "../../../assest/images/aboutus-page/gallery-section/galler
 import gallery8 from "../../../assest/images/aboutus-page/gallery-section/gallery-8.jpg";
 import PostertopApp from '../Postertop';
 import FooterApp from '../Footer';
+import LayoutApp from '../Layout';
 
 export default function AboutApp() {
     const [visible, setVisible] = useState(false)
@@ -42,7 +43,7 @@ export default function AboutApp() {
     window.addEventListener('scroll', toggleVisible);
     return (
         <Fragment>
-
+        <LayoutApp/>
             <PostertopApp name="About Us"/>
             <MDBContainer>
                 <MDBRow className='p-5'>

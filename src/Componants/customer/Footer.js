@@ -10,7 +10,7 @@ export default function FooterApp() {
                 <MDBRow className="text-white m-0 p-0 pt-4 pb-3">
                     <MDBCol xs sm={10} md={3} lg={3} className="mx-auto ps-5 ps-sm-0 ps-md-0" >
                         <h3>Usefull Link</h3>
-                        <Link to="/Home" className="text-decoration-none text-white"><i className="fa fa-arrow-right"></i> Home</Link> <br />
+                        <Link to="/" className="text-decoration-none text-white"><i className="fa fa-arrow-right"></i> Home</Link> <br />
                         <Link to="/About" className=" text-decoration-none text-white"><i className="fa fa-arrow-right"></i> About</Link> <br />
                         <Link to="/Menu" className=" text-decoration-none text-white"><i className="fa fa-arrow-right"></i> Menu</Link> <br />
                         <Link to="/Contactus" className=" text-decoration-none text-white"><i className="fa fa-arrow-right"></i> Contact</Link> <br />

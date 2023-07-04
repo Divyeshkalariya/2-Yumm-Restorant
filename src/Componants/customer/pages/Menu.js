@@ -7,6 +7,7 @@ import FooterApp from '../Footer';
 import BreakfastApp from '../Breakfast';
 import LaunchApp from '../Launch';
 import DinnerApp from '../Dinner';
+import LayoutApp from '../Layout';
 
 function MenuApp() {
     $(document).ready(function(){
@@ -62,7 +63,7 @@ function MenuApp() {
 
     return (
         <Fragment>
-
+        <LayoutApp/>
             <MDBContainer fluid className='p-0' id='ourmenu'>
                 <PostertopApp name="Food Menu" />
                 <MDBContainer className='mt-5'>
