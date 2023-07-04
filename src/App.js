@@ -29,7 +29,7 @@ export default function App() {
     <>
     <BrowserRouter>
       <Routes>
-        {/* <Route path="/" element={<LayoutApp/>}> */}
+        // {/* <Route path="/" element={<LayoutApp/>}> */}
           <Route path='/' element={<HomeApp />} />
           <Route path='/home' element={<HomeApp/>}/>
           <Route path="/about" element={<AboutApp/>} />
@@ -37,7 +37,7 @@ export default function App() {
           <Route path="/menu" element={<MenuApp />} />
           <Route path="/contactus" element={<ContactusApp />} />
           <Route path="*" element={<PagenotfoundApp />} />
-        {/* </Route> */}
+        // {/* </Route> */}
       </Routes>
     </BrowserRouter>
     </>
